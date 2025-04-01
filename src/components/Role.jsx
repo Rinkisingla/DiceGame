@@ -6,7 +6,7 @@ export const Role = ({rollDice, Currentdice}) => {
     <>
      <Roledice>
       <div className="dice" onClick={rollDice}>
-     <img src={`/images/dice/dice_${Currentdice}.png`} alt="Dice" />
+     <img src={`./assets/images/dice/dice_${Currentdice}.png`} alt="Dice" />
      </div>
      <p> Click on dice to role</p>
      </Roledice>
