@@ -12,9 +12,9 @@ function App() {
    return (
     <>
       {
-            // isGameStarted ?<Gameplay/>:<Startgame toggle={toggleGameplay}/>
+             isGameStarted ?<Gameplay/>:<Startgame toggle={toggleGameplay}/>
       } 
-      <Gameplay/>
+      
     </>
   )
 }
