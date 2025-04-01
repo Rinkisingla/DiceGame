@@ -5,7 +5,7 @@ import { Totalscore } from "./components/Totalscore";
 import { Numberselector } from "./components/Numberselector";
 import { Role } from "./components/Role";
 function App() {
-   const [isGameStarted,setIsGameStarted]= useState(true);
+   const [isGameStarted,setIsGameStarted]= useState(false);
    const toggleGameplay=()=>{
     setIsGameStarted((prev)=>!prev);
    }
